@@ -1,0 +1,8 @@
+<svg width="600" height="600" viewBox="0 0 600 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="600" rx="48" fill="#F4E9E2"/>
+  <path d="M300 140C334 140 362 168 362 202V384C362 418 334 446 300 446C266 446 238 418 238 384V202C238 168 266 140 300 140Z" fill="#E2C7A3" stroke="#B18C3E" stroke-width="10"/>
+  <path d="M240 230H360" stroke="#C8A14A" stroke-width="18" stroke-linecap="round"/>
+  <path d="M300 140V100" stroke="#C8A14A" stroke-width="16" stroke-linecap="round"/>
+  <circle cx="300" cy="380" r="18" fill="#B58F35"/>
+  <text x="300" y="560" text-anchor="middle" font-family="Inter, sans-serif" font-weight="700" font-size="42" fill="#111111">Royal Oud</text>
+</svg>

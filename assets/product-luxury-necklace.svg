@@ -1,0 +1,8 @@
+<svg width="600" height="600" viewBox="0 0 600 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="600" rx="48" fill="#F9F4EF"/>
+  <path d="M170 160C210 240 250 300 300 320C350 300 390 240 430 160" stroke="#C8A14A" stroke-width="22" stroke-linecap="round" fill="none"/>
+  <circle cx="300" cy="320" r="28" fill="#D9C1A1"/>
+  <path d="M290 140C290 116 312 100 336 100H364C388 100 410 116 410 140" stroke="#B58F35" stroke-width="16"/>
+  <path d="M206 182C206 178 210 172 217 169C230 163 251 162 268 177" stroke="#B58F35" stroke-width="14"/>
+  <text x="300" y="570" text-anchor="middle" font-family="Inter, sans-serif" font-weight="700" font-size="42" fill="#111111">Necklace</text>
+</svg>

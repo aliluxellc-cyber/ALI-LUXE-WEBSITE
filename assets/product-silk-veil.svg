@@ -1,0 +1,9 @@
+<svg width="600" height="600" viewBox="0 0 600 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="600" rx="48" fill="#F8F2ED"/>
+  <path d="M160 220C160 150 260 120 300 120C340 120 440 150 440 220V420C440 490 340 520 300 520C260 520 160 490 160 420V220Z" fill="#E8D6C9" stroke="#B58F35" stroke-width="14"/>
+  <path d="M200 186C230 162 270 152 300 152C330 152 370 162 400 186" stroke="#B58F35" stroke-width="16" stroke-linecap="round"/>
+  <path d="M240 260C260 240 290 230 300 230C310 230 340 240 360 260" stroke="#C8A14A" stroke-width="20" stroke-linecap="round"/>
+  <path d="M260 340C280 320 320 320 340 340" stroke="#C8A14A" stroke-width="20" stroke-linecap="round"/>
+  <circle cx="300" cy="390" r="18" fill="#B58F35"/>
+  <text x="300" y="560" text-anchor="middle" font-family="Inter, sans-serif" font-weight="700" font-size="42" fill="#111111">Silk Veil</text>
+</svg>

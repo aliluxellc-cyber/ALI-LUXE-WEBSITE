@@ -1,0 +1,8 @@
+<svg width="600" height="600" viewBox="0 0 600 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="600" rx="48" fill="#F9F3EE"/>
+  <path d="M215 180C215 154.385 236.385 133 262 133H338C363.615 133 385 154.385 385 180V295H215V180Z" fill="#D9C1A1"/>
+  <path d="M255 295C255 285.058 263.058 277 273 277H327C336.942 277 345 285.058 345 295V380C345 397.673 330.673 412 313 412H287C269.327 412 255 397.673 255 380V295Z" fill="#FFFFFF" stroke="#E4D2BE" stroke-width="2"/>
+  <path d="M300 133V100" stroke="#C8A14A" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="300" cy="90" r="14" fill="#B58F35"/>
+  <text x="50%" y="540" dominant-baseline="middle" text-anchor="middle" font-family="Inter, sans-serif" font-size="42" font-weight="700" fill="#111111">Perfumes</text>
+</svg>

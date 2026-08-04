@@ -1,0 +1,9 @@
+<svg width="600" height="600" viewBox="0 0 600 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="600" rx="48" fill="#F8F1EB"/>
+  <path d="M280 130L320 130L340 210H260L280 130Z" fill="#D7B47C"/>
+  <path d="M280 130L320 130L340 210H260L280 130Z" stroke="#B58F35" stroke-width="16" stroke-linejoin="round"/>
+  <path d="M260 210L270 460H330L340 210" fill="#F7ECE0" stroke="#E3D1BB" stroke-width="2"/>
+  <path d="M270 460C270 482.091 287.909 500 310 500C332.091 500 350 482.091 350 460" stroke="#C8A14A" stroke-width="14"/>
+  <circle cx="310" cy="160" r="14" fill="#C8A14A"/>
+  <text x="50%" y="540" dominant-baseline="middle" text-anchor="middle" font-family="Inter, sans-serif" font-size="42" font-weight="700" fill="#111111">Jewelry</text>
+</svg>

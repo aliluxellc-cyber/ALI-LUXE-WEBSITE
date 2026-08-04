@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>All Products | ALI LUXE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand-logo" href="index.html">
+          <img class="brand-icon" src="assets/logo.svg" alt="ALI LUXE logo" />
+          <span>ALI LUXE</span>
+        </a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Open menu">Menu</button>
+        <nav class="main-nav">
+          <a href="index.html#home">Home</a>
+          <a href="shop.html">Shop</a>
+          <a href="beauty.html">Beauty</a>
+          <a href="fashion.html">Fashion</a>
+          <a href="jewelry.html">Jewelry</a>
+          <a href="perfumes.html">Perfumes</a>
+          <a href="index.html#about">About</a>
+          <a href="index.html#contact">Contact</a>
+        </nav>
+        <div class="nav-actions desktop-only">
+          <button class="icon-button">Search</button>
+          <button class="icon-button">Wishlist</button>
+          <a class="icon-button cart-link" href="checkout.html">Cart <span class="cart-count" id="cartCount">0</span></a>
+          <button class="icon-button">Account</button>
+        </div>
+      </div>
+      <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+        <div class="mobile-menu-inner">
+          <button class="mobile-close" id="mobileClose" aria-label="Close menu">×</button>
+          <nav class="mobile-nav">
+            <a href="index.html#home">Home</a>
+            <a href="shop.html">Shop</a>
+            <a href="beauty.html">Beauty</a>
+            <a href="fashion.html">Fashion</a>
+            <a href="jewelry.html">Jewelry</a>
+            <a href="perfumes.html">Perfumes</a>
+            <a href="index.html#about">About</a>
+            <a href="index.html#contact">Contact</a>
+          </nav>
+          <div class="mobile-menu-actions">
+            <a href="shop.html" class="button button-primary">Shop Now</a>
+            <a href="all-products.html" class="button button-secondary">All Products</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section-heading">
+        <div class="container">
+          <span class="eyebrow">All Products</span>
+          <h2>Every ALI LUXE Collection</h2>
+          <p>Shop the full range of beauty, fashion, jewelry and fragrances.</p>
+        </div>
+      </section>
+
+      <section class="best-sellers">
+        <div class="container product-grid">
+          <article class="product-card glass-card">
+            <div class="product-image hydrating-glow-face-cream"></div>
+            <div class="product-copy">
+              <span class="product-category">Beauty</span>
+              <h3><a href="product.html?product=hydrating-glow-face-cream">Hydrating Glow Face Cream</a></h3>
+              <p>Deep hydration with hyaluronic acid and vitamin E.</p>
+              <div class="product-meta">
+                <span>$18.99</span>
+                <div class="product-actions">
+                  <button class="add-cart" data-product="hydrating-glow-face-cream">Add to Cart</button>
+                  <button>Wishlist</button>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="product-card glass-card">
+            <div class="product-image luxury-leather-sneakers"></div>
+            <div class="product-copy">
+              <span class="product-category">Fashion</span>
+              <h3><a href="product.html?product=luxury-leather-sneakers">Luxury Leather Sneakers</a></h3>
+              <p>Modern design with lightweight comfort.</p>
+              <div class="product-meta">
+                <span>$19.99</span>
+                <div class="product-actions">
+                  <button class="add-cart" data-product="luxury-leather-sneakers">Add to Cart</button>
+                  <button>Wishlist</button>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="product-card glass-card">
+            <div class="product-image classic-mens-watch"></div>
+            <div class="product-copy">
+              <span class="product-category">Watches</span>
+              <h3><a href="product.html?product=classic-mens-watch">Classic Men's Watch</a></h3>
+              <p>Japanese movement with a gold-finished dial.</p>
+              <div class="product-meta">
+                <span>$19.99</span>
+                <div class="product-actions">
+                  <button class="add-cart" data-product="classic-mens-watch">Add to Cart</button>
+                  <button>Wishlist</button>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="product-card glass-card">
+            <div class="product-image luxury-necklace"></div>
+            <div class="product-copy">
+              <span class="product-category">Jewelry</span>
+              <h3><a href="product.html?product=luxury-necklace">Luxury Necklace</a></h3>
+              <p>Gold plated elegance with a delicate finish.</p>
+              <div class="product-meta">
+                <span>$16.99</span>
+                <div class="product-actions">
+                  <button class="add-cart" data-product="luxury-necklace">Add to Cart</button>
+                  <button>Wishlist</button>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,9 @@
+<svg width="600" height="600" viewBox="0 0 600 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="600" rx="48" fill="#F4EFEB"/>
+  <path d="M154 146C154 108.386 185.386 77 223 77H377C414.614 77 446 108.386 446 146V192H154V146Z" fill="#E9D6BB"/>
+  <path d="M176 192H426V496C426 520.091 406.091 540 382 540H218C193.909 540 174 520.091 174 496V192Z" fill="#FFFFFF" stroke="#D5C7B3" stroke-width="2"/>
+  <path d="M360 146L382 160V236" stroke="#C8A14A" stroke-width="14" stroke-linecap="round"/>
+  <path d="M240 146L218 160V236" stroke="#C8A14A" stroke-width="14" stroke-linecap="round"/>
+  <path d="M232 360C232 341.908 248.908 325 267 325H333C351.092 325 368 341.908 368 360V494H232V360Z" fill="#F6EEE7"/>
+  <text x="50%" y="540" dominant-baseline="middle" text-anchor="middle" font-family="Inter, sans-serif" font-size="42" font-weight="700" fill="#111111">Fashion</text>
+</svg>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop | ALI LUXE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand-logo" href="index.html">
+          <img class="brand-icon" src="assets/logo.svg" alt="ALI LUXE logo" />
+          <span>ALI LUXE</span>
+        </a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Open menu">Menu</button>
+        <nav class="main-nav">
+          <a href="index.html#home">Home</a>
+          <a href="shop.html">Shop</a>
+          <a href="beauty.html">Beauty</a>
+          <a href="fashion.html">Fashion</a>
+          <a href="jewelry.html">Jewelry</a>
+          <a href="perfumes.html">Perfumes</a>
+          <a href="index.html#about">About</a>
+          <a href="index.html#contact">Contact</a>
+        </nav>
+        <div class="nav-actions desktop-only">
+          <button class="icon-button">Search</button>
+          <button class="icon-button">Wishlist</button>
+          <a class="icon-button cart-link" href="checkout.html">Cart <span class="cart-count" id="cartCount">0</span></a>
+          <button class="icon-button">Account</button>
+        </div>
+      </div>
+      <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+        <div class="mobile-menu-inner">
+          <button class="mobile-close" id="mobileClose" aria-label="Close menu">×</button>
+          <nav class="mobile-nav">
+            <a href="index.html#home">Home</a>
+            <a href="shop.html">Shop</a>
+            <a href="beauty.html">Beauty</a>
+            <a href="fashion.html">Fashion</a>
+            <a href="jewelry.html">Jewelry</a>
+            <a href="perfumes.html">Perfumes</a>
+            <a href="index.html#about">About</a>
+            <a href="index.html#contact">Contact</a>
+          </nav>
+          <div class="mobile-menu-actions">
+            <a href="shop.html" class="button button-primary">Shop Now</a>
+            <a href="all-products.html" class="button button-secondary">All Products</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section-heading">
+        <div class="container">
+          <span class="eyebrow">Shop</span>
+          <h2>Luxury Collections by Category</h2>
+          <p>Browse our premium assortment of beauty, fashion, jewelry, perfumes, and accessories.</p>
+        </div>
+      </section>
+
+      <section class="featured-categories">
+        <div class="container category-grid">
+          <article class="category-card">
+            <div class="category-image category-beauty"></div>
+            <div class="category-copy">
+              <h3>Beauty & Cosmetics</h3>
+              <p>Glow-enhancing essentials for refined skincare rituals.</p>
+              <a href="beauty.html" class="link-button">Shop Beauty</a>
+            </div>
+          </article>
+          <article class="category-card">
+            <div class="category-image category-fashion"></div>
+            <div class="category-copy">
+              <h3>Fashion & Apparel</h3>
+              <p>Statement pieces with premium finishes and timeless allure.</p>
+              <a href="fashion.html" class="link-button">Shop Fashion</a>
+            </div>
+          </article>
+          <article class="category-card">
+            <div class="category-image category-jewelry"></div>
+            <div class="category-copy">
+              <h3>Jewelry</h3>
+              <p>Gold accents and delicate craftsmanship for every occasion.</p>
+              <a href="jewelry.html" class="link-button">Shop Jewelry</a>
+            </div>
+          </article>
+          <article class="category-card">
+            <div class="category-image category-perfumes"></div>
+            <div class="category-copy">
+              <h3>Perfumes</h3>
+              <p>Signature scents crafted to elevate your presence.</p>
+              <a href="perfumes.html" class="link-button">Shop Perfumes</a>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

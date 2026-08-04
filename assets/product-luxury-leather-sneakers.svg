@@ -1,0 +1,10 @@
+<svg width="600" height="600" viewBox="0 0 600 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="600" rx="48" fill="#F2EDE7"/>
+  <path d="M170 340C170 300 196 268 240 268H444L478 330C482 342 468 354 454 354H234C198 354 170 332 170 340Z" fill="#E8D3BE"/>
+  <path d="M176 338C176 296 202 264 246 264H440L474 326C478 337 466 348 454 348H234C198 348 176 328 176 338Z" stroke="#C8A14A" stroke-width="18"/>
+  <path d="M220 272L266 218" stroke="#B58F35" stroke-width="14" stroke-linecap="round"/>
+  <path d="M304 268L330 228" stroke="#B58F35" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="240" cy="456" r="38" fill="#D9C0A1"/>
+  <circle cx="462" cy="456" r="42" fill="#C8A14A" opacity="0.28"/>
+  <text x="300" y="560" text-anchor="middle" font-family="Inter, sans-serif" font-weight="700" font-size="42" fill="#111111">Sneakers</text>
+</svg>
