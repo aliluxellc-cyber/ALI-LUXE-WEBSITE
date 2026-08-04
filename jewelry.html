@@ -7,116 +7,115 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body>
+  <body data-page="jewelry">
+    <div class="announcement-bar">
+      <div class="announcement-item">Free Worldwide Shipping</div>
+      <div class="announcement-item">30-Day Returns</div>
+      <div class="announcement-item">Secure Luxury Checkout</div>
+      <div class="announcement-item">support@aliluxe.com</div>
+    </div>
+
     <header class="site-header">
       <div class="container header-inner">
         <a class="brand-logo" href="index.html">
           <img class="brand-icon" src="assets/logo.svg" alt="ALI LUXE logo" />
           <span>ALI LUXE</span>
         </a>
-        <button class="menu-toggle" id="menuToggle" aria-label="Open menu">Menu</button>
-        <nav class="main-nav">
-          <a href="index.html#home">Home</a>
-          <a href="shop.html">Shop</a>
+        <nav class="main-nav" aria-label="Primary navigation">
+          <a href="index.html">Home</a>
+          <a href="all-products.html">Collections</a>
           <a href="beauty.html">Beauty</a>
           <a href="fashion.html">Fashion</a>
           <a href="jewelry.html">Jewelry</a>
           <a href="perfumes.html">Perfumes</a>
-          <a href="index.html#about">About</a>
-          <a href="index.html#contact">Contact</a>
+          <a href="checkout.html">Checkout</a>
         </nav>
-        <div class="nav-actions desktop-only">
-          <button class="icon-button">Search</button>
-          <button class="icon-button">Wishlist</button>
-          <a class="icon-button cart-link" href="checkout.html">Cart <span class="cart-count" id="cartCount">0</span></a>
-          <button class="icon-button">Account</button>
-        </div>
-      </div>
-      <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
-        <div class="mobile-menu-inner">
-          <button class="mobile-close" id="mobileClose" aria-label="Close menu">×</button>
-          <nav class="mobile-nav">
-            <a href="index.html#home">Home</a>
-            <a href="shop.html">Shop</a>
-            <a href="beauty.html">Beauty</a>
-            <a href="fashion.html">Fashion</a>
-            <a href="jewelry.html">Jewelry</a>
-            <a href="perfumes.html">Perfumes</a>
-            <a href="index.html#about">About</a>
-            <a href="index.html#contact">Contact</a>
-          </nav>
-          <div class="mobile-menu-actions">
-            <a href="shop.html" class="button button-primary">Shop Now</a>
-            <a href="all-products.html" class="button button-secondary">All Products</a>
-          </div>
+        <div class="header-actions">
+          <button class="cart-toggle" id="cartToggle" aria-label="Open cart">
+            Cart <span class="cart-count" id="cartCount">0</span>
+          </button>
+          <button class="menu-toggle" id="menuToggle" aria-label="Open menu">Menu</button>
         </div>
       </div>
     </header>
 
+    <aside class="cart-panel" id="cartPanel" aria-label="Shopping cart panel">
+      <div class="cart-panel-header">
+        <div>
+          <h2>Shopping Cart</h2>
+          <p class="section-copy">Review your selection before checkout.</p>
+        </div>
+        <button class="cart-panel-close" id="cartClose" aria-label="Close cart">×</button>
+      </div>
+      <div class="cart-items" id="cartItems"></div>
+      <div class="cart-panel-footer">
+        <div class="cart-total">
+          <span class="cart-total-label">Subtotal</span>
+          <span class="cart-total-value" id="cartSubTotal">$0.00</span>
+        </div>
+        <a class="button button-primary" href="checkout.html">Proceed to Checkout</a>
+      </div>
+    </aside>
+
     <main>
-      <section class="section-heading">
-        <div class="container">
-          <span class="eyebrow">Jewelry</span>
-          <h2>Refined Jewelry for Every Occasion</h2>
-          <p>Discover elegance with sparkling necklaces, rings, and bracelets.</p>
+      <section class="collection-hero" style="background-image:url('https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=1600&q=80'); background-size: cover; background-position: center;">
+        <div class="container collection-hero-inner">
+          <div class="page-copy">
+            <span class="eyebrow">Jewelry collection</span>
+            <h1>Signature jewelry with timeless allure.</h1>
+            <p>Discover beautifully crafted pieces made for layering, gifting, and every refined moment.</p>
+          </div>
         </div>
       </section>
 
-      <section class="best-sellers">
-        <div class="container product-grid">
-          <article class="product-card glass-card">
-            <div class="product-image luxury-necklace"></div>
-            <div class="product-copy">
-              <span class="product-category">Jewelry</span>
-              <h3><a href="product.html?product=luxury-necklace">Luxury Necklace</a></h3>
-              <p>Gold plated elegance with a delicate finish.</p>
-              <div class="product-meta">
-                <span>$16.99</span>
-                <div class="product-actions">
-                  <button class="add-cart" data-product="luxury-necklace">Add to Cart</button>
-                  <button>Wishlist</button>
-                </div>
-              </div>
-            </div>
-          </article>
-          <article class="product-card glass-card">
-            <div class="product-image luxury-earrings"></div>
-            <div class="product-copy">
-              <span class="product-category">Jewelry</span>
-              <h3>Luxury Earrings</h3>
-              <p>Crystal finish for a subtle shine.</p>
-              <div class="product-meta">
-                <span>$12.99</span>
-                <div class="product-actions">
-                  <button class="add-cart" data-product="luxury-earrings">Add to Cart</button>
-                  <button>Wishlist</button>
-                </div>
-              </div>
-            </div>
-          </article>
-          <article class="product-card glass-card">
-            <div class="product-image luxury-rings"></div>
-            <div class="product-copy">
-              <span class="product-category">Jewelry</span>
-              <h3>Luxury Rings</h3>
-              <p>Minimal premium finish for everyday wear.</p>
-              <div class="product-meta">
-                <span>$13.99</span>
-                <div class="product-actions">
-                  <button class="add-cart" data-product="luxury-rings">Add to Cart</button>
-                  <button>Wishlist</button>
-                </div>
-              </div>
-            </div>
-          </article>
+      <section class="container">
+        <div class="section-heading">
+          <span class="eyebrow">Featured jewelry</span>
+          <h2>Delicate pieces designed for everyday elegance.</h2>
         </div>
+        <div class="product-grid" id="categoryProducts"></div>
       </section>
     </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <div>
+          <a class="footer-logo" href="index.html">
+            <img class="brand-icon" src="assets/logo.svg" alt="ALI LUXE logo" />
+            <span>ALI LUXE</span>
+          </a>
+          <p class="footer-copy">A luxury destination for beauty, fashion, jewelry and fragrance.</p>
+        </div>
+        <div>
+          <p class="footer-contact"><strong>Contact</strong><br />support@aliluxe.com</p>
+          <ul class="footer-list">
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Returns</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+      <div class="container">
+        <button class="menu-toggle" id="mobileClose" aria-label="Close menu">Close</button>
+        <nav class="main-nav">
+          <a href="index.html">Home</a>
+          <a href="all-products.html">Collections</a>
+          <a href="beauty.html">Beauty</a>
+          <a href="fashion.html">Fashion</a>
+          <a href="jewelry.html">Jewelry</a>
+          <a href="perfumes.html">Perfumes</a>
+          <a href="checkout.html">Checkout</a>
+        </nav>
+      </div>
+    </div>
 
     <script src="script.js"></script>
   </body>
