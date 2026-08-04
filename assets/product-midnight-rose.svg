@@ -1,0 +1,8 @@
+<svg width="600" height="600" viewBox="0 0 600 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="600" rx="48" fill="#F7EDED"/>
+  <circle cx="300" cy="300" r="140" fill="#F5D8D8"/>
+  <circle cx="300" cy="300" r="100" fill="#FBE8E8"/>
+  <path d="M300 196C330 206 356 236 358 268C387 280 404 310 398 343C412 368 410 410 348 412C348 440 320 460 290 460C260 460 232 440 232 412C170 410 168 368 182 343C176 310 193 280 222 268C224 236 250 206 280 196" fill="#C8A14A" opacity="0.18"/>
+  <circle cx="300" cy="290" r="18" fill="#B58F35"/>
+  <text x="300" y="560" text-anchor="middle" font-family="Inter, sans-serif" font-weight="700" font-size="42" fill="#111111">Midnight Rose</text>
+</svg>

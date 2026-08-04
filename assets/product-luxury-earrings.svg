@@ -1,0 +1,8 @@
+<svg width="600" height="600" viewBox="0 0 600 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="600" rx="48" fill="#F9F4EE"/>
+  <circle cx="220" cy="260" r="80" fill="#C8A14A" fill-opacity="0.14"/>
+  <path d="M200 150C200 134 214 120 230 120H250C266 120 280 134 280 150V240C280 268 252 292 230 292C208 292 200 276 200 240V150Z" fill="#F5E6D6" stroke="#B58F35" stroke-width="8"/>
+  <circle cx="380" cy="260" r="80" fill="#C8A14A" fill-opacity="0.14"/>
+  <path d="M360 150C360 134 374 120 390 120H410C426 120 440 134 440 150V240C440 268 412 292 390 292C368 292 360 276 360 240V150Z" fill="#F5E6D6" stroke="#B58F35" stroke-width="8"/>
+  <text x="300" y="560" text-anchor="middle" font-family="Inter, sans-serif" font-weight="700" font-size="42" fill="#111111">Earrings</text>
+</svg>

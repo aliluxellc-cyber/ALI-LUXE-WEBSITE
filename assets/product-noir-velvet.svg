@@ -1,0 +1,10 @@
+<svg width="600" height="600" viewBox="0 0 600 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="600" rx="48" fill="#F5F0EC"/>
+  <path d="M280 160C280 128 304 104 336 104C368 104 392 128 392 160V426C392 458 368 482 336 482C304 482 280 458 280 426V160Z" fill="#E2D2C5" stroke="#B18C3E" stroke-width="16"/>
+  <path d="M310 104V80" stroke="#C8A14A" stroke-width="14" stroke-linecap="round"/>
+  <path d="M270 230C290 210 320 198 350 230" stroke="#C8A14A" stroke-width="20" stroke-linecap="round"/>
+  <path d="M270 300C300 280 330 300 350 300" stroke="#B58F35" stroke-width="20" stroke-linecap="round"/>
+  <path d="M250 370C280 350 320 360 350 370" stroke="#C8A14A" stroke-width="16" stroke-linecap="round"/>
+  <circle cx="336" cy="170" r="14" fill="#B58F35"/>
+  <text x="300" y="560" text-anchor="middle" font-family="Inter, sans-serif" font-weight="700" font-size="42" fill="#111111">Noir Velvet</text>
+</svg>

@@ -1,0 +1,8 @@
+<svg width="600" height="600" viewBox="0 0 600 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="600" rx="48" fill="#F4EEE8"/>
+  <path d="M186 236C186 200 216 176 256 176H344C384 176 414 200 414 236V334H186V236Z" fill="#E8D8C7" stroke="#C8A14A" stroke-width="3"/>
+  <path d="M256 176V144C256 130 268 118 282 118H318C332 118 344 130 344 144V176" stroke="#B18D4E" stroke-width="14"/>
+  <path d="M210 334H390" stroke="#C8A14A" stroke-width="16" stroke-linecap="round"/>
+  <circle cx="306" cy="390" r="46" fill="#D9C7B0"/>
+  <text x="300" y="560" text-anchor="middle" font-family="Inter, sans-serif" font-weight="700" font-size="42" fill="#111111">Handbag</text>
+</svg>

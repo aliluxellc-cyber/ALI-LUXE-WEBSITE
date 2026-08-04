@@ -1,0 +1,10 @@
+<svg width="600" height="600" viewBox="0 0 600 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="600" rx="48" fill="#F6EEE7"/>
+  <circle cx="310" cy="220" r="120" fill="#C8A14A" fill-opacity="0.12"/>
+  <rect x="170" y="240" width="260" height="240" rx="36" fill="#FFF9F3" stroke="#E3D1BB" stroke-width="2"/>
+  <path d="M245 270C245 255.431 256.431 244 271 244H329C343.569 244 355 255.431 355 270V330C355 344.569 343.569 356 329 356H271C256.431 356 245 344.569 245 330V270Z" fill="#EFE7DA"/>
+  <path d="M275 358H325" stroke="#C8A14A" stroke-width="10" stroke-linecap="round"/>
+  <path d="M295 196V236" stroke="#C8A14A" stroke-width="10" stroke-linecap="round"/>
+  <path d="M235 325C235 318 242 312 249 312H351C358 312 365 318 365 325" stroke="#B58F35" stroke-width="12" stroke-linecap="round"/>
+  <text x="50%" y="520" dominant-baseline="middle" text-anchor="middle" font-family="Inter, sans-serif" font-size="42" font-weight="700" fill="#111111">Beauty</text>
+</svg>

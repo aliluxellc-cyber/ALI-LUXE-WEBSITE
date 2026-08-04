@@ -1,0 +1,10 @@
+<svg width="600" height="600" viewBox="0 0 600 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="600" rx="48" fill="#F7EFEB"/>
+  <circle cx="307" cy="220" r="120" fill="#C8A14A" fill-opacity="0.16"/>
+  <rect x="210" y="230" width="180" height="220" rx="32" fill="#FFFFFF" stroke="#E6D7C2" stroke-width="2"/>
+  <rect x="248" y="240" width="104" height="24" rx="12" fill="#EFE7DA"/>
+  <rect x="248" y="284" width="104" height="140" rx="20" fill="#F7F0E9"/>
+  <path d="M248 460H352" stroke="#C8A14A" stroke-width="14" stroke-linecap="round"/>
+  <path d="M275 240V220C275 201.908 287.908 189 306 189C324.092 189 337 201.908 337 220V240" stroke="#B58F35" stroke-width="12" stroke-linecap="round"/>
+  <text x="300" y="560" text-anchor="middle" font-family="Inter, sans-serif" font-weight="700" font-size="42" fill="#111111">Glow Cream</text>
+</svg>

@@ -1,0 +1,10 @@
+<svg width="600" height="600" viewBox="0 0 600 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="600" rx="48" fill="#F9F4EF"/>
+  <circle cx="320" cy="320" r="110" fill="#F4E1D2"/>
+  <circle cx="320" cy="320" r="70" fill="#EFE3D9"/>
+  <path d="M300 190C330 190 360 220 360 260C360 300 330 330 300 330C270 330 240 300 240 260C240 220 270 190 300 190Z" fill="#C8A14A" opacity="0.18"/>
+  <path d="M300 220C320 220 340 240 340 260C340 280 320 300 300 300C280 300 260 280 260 260C260 240 280 220 300 220Z" fill="#B58F35"/>
+  <path d="M300 390C300 330 320 310 340 310C360 310 380 330 380 360" stroke="#B18C3E" stroke-width="18" stroke-linecap="round"/>
+  <path d="M300 390C300 330 280 310 260 310C240 310 220 330 220 360" stroke="#B18C3E" stroke-width="18" stroke-linecap="round"/>
+  <text x="300" y="560" text-anchor="middle" font-family="Inter, sans-serif" font-weight="700" font-size="42" fill="#111111">Pearl Charm</text>
+</svg>

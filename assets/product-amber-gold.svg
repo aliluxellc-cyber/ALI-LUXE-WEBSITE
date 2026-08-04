@@ -1,0 +1,8 @@
+<svg width="600" height="600" viewBox="0 0 600 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="600" rx="48" fill="#F9F2EA"/>
+  <ellipse cx="300" cy="280" rx="120" ry="160" fill="#C8A14A" opacity="0.18"/>
+  <path d="M220 180C220 146 256 120 300 120C344 120 380 146 380 180V360C380 394 344 420 300 420C256 420 220 394 220 360V180Z" fill="#F5E3CE" stroke="#B18C3E" stroke-width="12"/>
+  <path d="M295 140H305V100H295V140Z" fill="#C8A14A"/>
+  <path d="M260 154C260 140 272 128 286 128H314C328 128 340 140 340 154V190H260V154Z" fill="#F8E8D8"/>
+  <text x="300" y="560" text-anchor="middle" font-family="Inter, sans-serif" font-weight="700" font-size="42" fill="#111111">Amber Gold</text>
+</svg>

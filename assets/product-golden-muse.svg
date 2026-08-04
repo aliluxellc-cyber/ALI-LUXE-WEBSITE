@@ -1,0 +1,9 @@
+<svg width="600" height="600" viewBox="0 0 600 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="600" rx="48" fill="#F9F4ED"/>
+  <circle cx="300" cy="320" r="160" fill="#F0DFD1"/>
+  <path d="M260 220C264 178 300 150 340 150C370 150 400 172 404 210L410 360C410 392 382 420 350 420H250C218 420 190 392 190 360V228C190 222 196 216 202 216H260Z" fill="#D8B98A"/>
+  <path d="M300 120L320 165H280L300 120Z" fill="#B58F35"/>
+  <circle cx="330" cy="300" r="24" fill="#F8E4CE"/>
+  <path d="M190 360C190 338 212 320 240 320H360C388 320 410 338 410 360" stroke="#B18C3E" stroke-width="18" stroke-linecap="round"/>
+  <text x="300" y="560" text-anchor="middle" font-family="Inter, sans-serif" font-weight="700" font-size="42" fill="#111111">Golden Muse</text>
+</svg>

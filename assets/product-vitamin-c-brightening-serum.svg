@@ -1,0 +1,10 @@
+<svg width="600" height="600" viewBox="0 0 600 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="600" rx="48" fill="#F9F4EE"/>
+  <circle cx="300" cy="230" r="118" fill="#C8A14A" fill-opacity="0.13"/>
+  <rect x="210" y="242" width="180" height="220" rx="42" fill="#FFFFFF" stroke="#E4D2BE" stroke-width="2"/>
+  <rect x="250" y="256" width="100" height="30" rx="15" fill="#EFE7DA"/>
+  <rect x="250" y="300" width="100" height="120" rx="24" fill="#F7F0E9"/>
+  <circle cx="300" cy="462" r="26" fill="#D8B971"/>
+  <path d="M250 314C250 306.268 256.268 300 264 300H336C343.732 300 350 306.268 350 314V368C350 375.732 343.732 382 336 382H264C256.268 382 250 375.732 250 368V314Z" fill="#C8A14A" opacity="0.22"/>
+  <text x="300" y="560" text-anchor="middle" font-family="Inter, sans-serif" font-weight="700" font-size="42" fill="#111111">Vitamin C</text>
+</svg>
